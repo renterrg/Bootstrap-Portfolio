@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Bootstrap-Portfolio</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+  </head>
+
+<style>
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-image: url("assets/images/fresh_snow_@2X.png");
+}
+
+.container-fluid {
+  padding: 0px 160px 0px 170px;
+}
+
+#header {
+  padding: 0px 200px 0px 160px;
+  border-bottom: solid;
+  border-bottom-color: #cccccc;
+  border-width: 3px;
+  background-color: #ffffff
+}
+
+#navbar-brand {
+  font-size: 35px;
+  background-color: #4aaaaf;
+  margin: 0;
+  height: 100px;
+  padding-top: 30px;
+  width: 250px;
+  text-align: center;
+  color: #ffffff;
+  font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+
+#portfolio {
+  border-left: solid;
+  border-right: solid;
+  border-width: 1px;
+  border-left-color: #cccccc;
+  border-right-color: #cccccc;
+}
+
+#about, #portfolio, #contact {
+  padding: 0px 20px 0px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#myNavbar {
+  padding-top: 10px;
+ 
+}
+
+#rightbar {
+  padding-top: 30px;
+}
+
+#footer {
+  text-align: center;
+}
+
+
+#aboutme, #connectwithme {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaaf;
+  font-size: 25px;
+  border-bottom: solid;
+  border-bottom-color: #cccccc;
+  border-width: 2px;
+}
+
+p {
+  font-size: 18px;
+  color: #666666;
+}
+
+#leftsection {
+  border: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  padding: 30px;
+  margin-right: 70px;
+  background-color: #ffffff;
+
+}
+
+#container2 {
+  padding-top: 20px;
+}
+
+#rightsection {
+  border: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  padding: 10px 20px 20px 20px;
+  background-color: #ffffff;
+}
+
+#icons, {
+  padding: 0;
+}
+
+#github{
+  padding-left: 10px;
+}
+
+footer {
+  text-align: center;
+  border-top: solid;
+  border-width: 7px;
+  border-top-color: #4aaaaf;
+  background-color: #666666;
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+
+
+  }
+
+#copyright {
+  color: #ffffff;
+  font-size: 15px;
+  padding-top: 40px;
+}
+
+
+
+
+
+
+
+</style>
+
+<body>
+
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid" id="header">
+    <div class="navbar-header">
+       <h3 id="navbar-brand">Renzo Renteria</h3>
+    </div>
+       
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+        <ul id="rightbar" class="nav navbar-nav navbar-right">
+          <li><a id="about" href="#about">About</a></li>
+          <li><a id="portfolio" href="#about">Portfolio</a></li>
+          <li><a id="contact" href="#about">Contact</a></li>
+        </ul>
+      
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container-fluid" id="container2">
+  <div class="row">
+    <div class="col-sm-7" id="leftsection">
+      <h3 id="aboutme">About Me</h3><br>
+        <div class="col-sm-4">
+          <img id="profilepic" src="assets/images/profilepicture.jpg" class="img-responsive" alt="Responsive image">
+        </div>      
+        
+          <p>My name is Renzo Renteria and I am a Rehab Specialist at Sport & Spine Rehab. My professional background is primarily focused in the field of rehabilitation, chiropractic and physical therapy. For the past few years, I have worked together with various health practioners in these fields.
+          </p><br>
+
+          <p>Currently, I am interested in the field of computer programming. My desire is to learn new skill sets and knowledge in order to become a well-rounded web developer and a strong candidate for future employers.
+          </p>
+    </div>  
+
+
+
+
+
+      <div class="col-sm-3" id="rightsection">
+        <h3 id="connectwithme">Connect with me</h3><br>
+        
+          <div class="row">
+            <div class="col-sm-12">
+              
+              <div  class="connecticons">
+              <img id="icons" src="assets/images/github.png" height="50" width="50">
+              
+            
+
+
+            
+              
+                <img id="icons" src="assets/images/linkedinblack.jpg" height="50" width="50">
+              
+            
+            
+        
+            
+              
+                <img id="icons" src="assets/images/stack.jpg" height="50" width="50">
+              </div>
+            </div>
+          </div>
+          
+      </div>
+
+
+
+
+
+  </div>
+</div>
+
+<footer class="footer">
+      <div class="container">
+        <p id="copyright" class="text-muted">Copyright 2017 Renzo Renteria</p>
+      </div>
+</footer>
+
+
+</body>
+</html>
